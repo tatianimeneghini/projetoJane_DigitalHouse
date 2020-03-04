@@ -81,8 +81,17 @@ main.about img{
 }
 
 @media(max-width: 375px){
-    /* Determina conjunto de regras de CSS (max e min) adaptadas para tela mobile, característica da tag meta viewport /*
+    /* Determina conjunto de regras de CSS (max e min) adaptadas para tela mobile, característica da tag meta viewport.*/
     #chat{
+        display: none;
+    }
+    
+    #menu-mobile{
+        display: block;
+        margin: 0 auto;
+    }
+
+    header nav ul{
         display: none;
     }
 }
